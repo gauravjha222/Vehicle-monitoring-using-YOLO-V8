@@ -48,22 +48,26 @@ streamlit run app.py
 
 vehicle-monitoring-yolov8/
 │
-├── app.py                  # Streamlit web app entry point
-├── helper.py               # Detection, tracking, and stream handling logic
-├── settings.py             # Configuration for paths, models, and constants
-│
+├── app.py                   Streamlit web app entry point
+├── helper.py                Detection, tracking, and stream handling logic
+├── settings.py              Configuration for paths, models, and constants
+
+
+
 ├── images/
-│   ├── office_4.jpg                # Default input image
-│   └── office_4_detected.jpg      # Default output image
-│
+│   ├── office_4.jpg                 Default input image
+│   └── office_4_detected.jpg        Default output image
+
+
+
 ├── videos/
 │   ├── video_1.mp4
 │   ├── video_2.mp4
 │   └── video_3.mp4
-│
+
 ├── weights/
-│   ├── yolov8n.pt                 # YOLOv8 detection model
-│   └── yolov8n-seg.pt             # YOLOv8 segmentation model
+│   ├── yolov8n.pt                 YOLOv8 detection model
+│   └── yolov8n-seg.pt             YOLOv8 segmentation model
 │
 └── requirements.txt
 
